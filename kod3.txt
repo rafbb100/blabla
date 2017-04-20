@@ -1,0 +1,45 @@
+zamiana2131
+zamiana nr 3
+     
+    This function is used to reverse an integer array.  For example, if the
+    array is {1,2,3,4,5}, these functions will return an array like {5,4,3,2,1}.
+    The user needs to pass in a poin
+     
+    for(a;a<--b;a++) //increment a and decrement b until they meet eachother
+    {
+        swap=orig[a];       //put what's in a into swap space
+        orig[a]=orig[b];    //put what's in b into a
+        orig[b]=swap;       //put what's in the swap (a) into b
+    }
+     
+    return orig;    //return the new (reversed) string (a pointer to it)
+}
+ 
+/******************************************************************************/
+/*                  The Following is a test program                           */
+/******************************************************************************/
+/* 
+/* Note that this test program requires C++ but the function does not */
+#include<iostream>
+ 
+int main()
+{
+    const unsigned short int SIZE=10;
+    int ARRAY[SIZE]={1,2,3,4,5,6,7,8,9,10};
+    int*arr=ARRAY;
+     
+    for(int i=0;i<SIZE;i++)
+    {
+        std::cout<<arr[i]<<' ';
+    }
+    std::cout<<std::endl;
+    arr=ReverseArray(arr,SIZE);
+    for(int i=0;i<SIZE;i++)
+    {
+        std::cout<<arr[i]<<' ';
+    }
+    std::cout<<std::endl;
+    std::cin.get();
+    return 0;
+}
+*/
