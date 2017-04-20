@@ -1,7 +1,7 @@
 zmiana dominik
  * A Template for building OpenGL applications using GLUT
  *
- * Author: Perspective @ cprogramming.com
+ * Author: Perspective @ cprogramming.com prosze
  * Date  : Jan, 2005
  *
  * Description: 
